@@ -11,5 +11,7 @@ public class MyWorld extends World
         Hero hero = new Hero();
         addObject(hero, 100, 100);
         
+        Bee bee = new Bee();
+        addObject(bee, 600, 100);
     }
 }
