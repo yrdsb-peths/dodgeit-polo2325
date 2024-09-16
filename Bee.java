@@ -6,7 +6,8 @@ public class Bee extends Actor
     {
         move(-10);
         
-        if(getX() <= 0){
+        if(getX() <= 0)
+        {
             resetBee();
         }
         
@@ -22,6 +23,7 @@ public class Bee extends Actor
     public void resetBee()
     {
         int num = Greenfoot.getRandomNumber(2);
+        
         if(num == 0)
         {
             setLocation(600, 100);
